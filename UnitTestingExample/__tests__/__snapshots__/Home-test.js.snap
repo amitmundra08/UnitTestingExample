@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={Object {}}
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 30,
+        }
+      }
+    >
+      hello world
+    </Text>
+  </View>
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    placeHolder="Enter Username"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "backgroundColor": "grey",
+        "height": 40,
+      }
+    }
+    testID="username"
+    underlineColorAndroid="transparent"
+  />
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    placeHolder="Enter Password"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "backgroundColor": "grey",
+        "height": 40,
+      }
+    }
+    testID="password"
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;

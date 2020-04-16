@@ -1,0 +1,32 @@
+{
+  "name": "UnitTestingExample",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "check-prop-types": "^1.1.2",
+    "moxios": "^0.4.0",
+    "react": "16.8.3",
+    "react-native": "0.59.9",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/runtime": "^7.9.2",
+    "babel-jest": "^25.3.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest": "^25.3.0",
+    "jest-enzyme": "^7.1.2",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
