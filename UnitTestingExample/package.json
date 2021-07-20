@@ -11,7 +11,7 @@
     "check-prop-types": "^1.1.2",
     "moxios": "^0.4.0",
     "react": "16.8.3",
-    "react-native": "0.59.9",
+    "react-native": "0.62.3",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0"
   },
